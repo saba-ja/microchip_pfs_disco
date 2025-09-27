@@ -39,8 +39,8 @@ set led_output_reg 1
 #   |     1    |  I/O     |  IOREG    |
 #    ---------------------------------
 #
-if {$led_output_reg == 1} {
-	for {set i 0} {$i < 7} {incr i} {
-		set_ioff -port_name led\[$i\] -OUT_REG 1
-	}
-}
+# if {$led_output_reg == 1} {
+# 	for {set i 0} {$i < 7} {incr i} {
+# 		set_ioff -port_name led\[$i\] -OUT_REG 1
+# 	}
+# }

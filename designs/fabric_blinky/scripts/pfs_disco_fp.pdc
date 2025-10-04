@@ -69,7 +69,7 @@
 # # 			-type inclusive -color 2147442270 -x1 1164 -y1 12 -x2 1199 -y2 17
 # 
 # # 		# Place the Blinky instance in the region
-# # 		assign_region -region_name BlinkyRegion -inst_name u5
+# # 		assign_region -region_name BlinkyRegion -inst_name blinky_0
 # 
 # # 	} else {
 # 
@@ -82,10 +82,11 @@
 # # 			-type inclusive -color 2147442270 -x1 1164 -y1 12 -x2 1199 -y2 17
 # 
 # # 		# Place the Blinky TMR instances in each region
-# # 		assign_region -region_name BlinkyTMR0 -inst_name u5/TMR0
-# # 		assign_region -region_name BlinkyTMR1 -inst_name u5/TMR1
-# # 		assign_region -region_name BlinkyTMR2 -inst_name u5/TMR2
+# # 		assign_region -region_name BlinkyTMR0 -inst_name blinky_0/TMR0
+# # 		assign_region -region_name BlinkyTMR1 -inst_name blinky_0/TMR1
+# # 		assign_region -region_name BlinkyTMR2 -inst_name blinky_0/TMR2
 # 
 # # 	}
 # # }
+
 
